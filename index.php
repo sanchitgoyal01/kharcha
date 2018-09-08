@@ -69,7 +69,7 @@ switch (ENVIRONMENT)
 		error_reporting(-1);
 		ini_set('display_errors', 1);
 
-		define('CI_BASE_DIR', '/home/sanchit/Workspace/frameworks/codeigniter-core/');
+		define('CI_BASE_DIR', $_SERVER['DOCUMENT_ROOT'] . '/codeigniter/');
 	break;
 
 	case 'testing':
